@@ -1,0 +1,52 @@
+{
+    "name": "Hidden Intelligence",
+    "short_name": "Hidden IQ",
+    "start_url": "/",
+    "display": "standalone",
+    "description": "A Game with Trust Issues!",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "related_applications": [
+        {
+            "platform": "play",
+            "id": "https://play.google.com/store/apps/details?id=com.joshualim.hiddeniq"
+        },
+        {
+            "platform": "itunes",
+            "id": "https://apps.apple.com/us/app/hidden-intelligence/id6736437352"
+        }
+    ],
+    "icons": [
+        {
+            "src": "android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "favicon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "favicon.ico",
+            "sizes": "48x48",
+            "type": "favicon",
+            "purpose": "favicon"
+        }
+    ]
+}

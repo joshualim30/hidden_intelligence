@@ -1,0 +1,48 @@
+{
+	"flutter": {
+		"platforms": {
+			"android": {
+				"default": {
+					"projectId": "hiddenintelligence",
+					"appId": "1:293448909504:android:87426b1133118cbeb7e325",
+					"fileOutput": "android/app/google-services.json"
+				}
+			},
+			"ios": {
+				"default": {
+					"projectId": "hiddenintelligence",
+					"appId": "1:293448909504:ios:e344cabc8c19c95fb7e325",
+					"uploadDebugSymbols": false,
+					"fileOutput": "ios/Runner/GoogleService-Info.plist"
+				}
+			},
+			"dart": {
+				"lib/firebase_options.dart": {
+					"projectId": "hiddenintelligence",
+					"configurations": {
+						"android": "1:293448909504:android:87426b1133118cbeb7e325",
+						"ios": "1:293448909504:ios:e344cabc8c19c95fb7e325",
+						"web": "1:293448909504:web:47845add162dfc00b7e325"
+					}
+				}
+			}
+		}
+	},
+	"hosting": {
+		"public": "build/web",
+		"rewrites": [
+			{
+				"source": "**",
+				"destination": "/index.html"
+			}
+		],
+		"ignore": [
+			"firebase.json",
+			"**/.*",
+			"**/node_modules/**"
+		],
+		"frameworksBackend": {
+			"region": "us-central1"
+		}
+	}
+}
